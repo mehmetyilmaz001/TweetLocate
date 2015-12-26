@@ -12,6 +12,8 @@
 		B0938EAA1C2E8DF900951D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0938EA81C2E8DF900951D2D /* Main.storyboard */; };
 		B0938EAC1C2E8DF900951D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0938EAB1C2E8DF900951D2D /* Assets.xcassets */; };
 		B0938EAF1C2E8DF900951D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0938EAD1C2E8DF900951D2D /* LaunchScreen.storyboard */; };
+		B0938EB91C2EA23300951D2D /* TweetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0938EB81C2EA23300951D2D /* TweetListTableViewController.swift */; };
+		B0938EBB1C2EC89300951D2D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0938EBA1C2EC89300951D2D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B0938EAB1C2E8DF900951D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0938EAE1C2E8DF900951D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0938EB01C2E8DF900951D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0938EB81C2EA23300951D2D /* TweetListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListTableViewController.swift; sourceTree = "<group>"; };
+		B0938EBA1C2EC89300951D2D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 				B0938EA61C2E8DF900951D2D /* ViewController.swift */,
 				B0938EA81C2E8DF900951D2D /* Main.storyboard */,
 				B0938EAB1C2E8DF900951D2D /* Assets.xcassets */,
+				B0938EBA1C2EC89300951D2D /* icon.png */,
 				B0938EAD1C2E8DF900951D2D /* LaunchScreen.storyboard */,
 				B0938EB01C2E8DF900951D2D /* Info.plist */,
+				B0938EB81C2EA23300951D2D /* TweetListTableViewController.swift */,
 			);
 			path = TweetLocate;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0938EBB1C2EC89300951D2D /* icon.png in Resources */,
 				B0938EAF1C2E8DF900951D2D /* LaunchScreen.storyboard in Resources */,
 				B0938EAC1C2E8DF900951D2D /* Assets.xcassets in Resources */,
 				B0938EAA1C2E8DF900951D2D /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0938EA71C2E8DF900951D2D /* ViewController.swift in Sources */,
+				B0938EB91C2EA23300951D2D /* TweetListTableViewController.swift in Sources */,
 				B0938EA51C2E8DF900951D2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				B0938EB51C2E8DF900951D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
